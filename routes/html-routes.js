@@ -14,26 +14,15 @@ module.exports = function (app) {
   app.get("/login", function (req, res) {
     res.render("login");
   });
-  //get the history page
-  app.get("/history", function (req, res) {
-    res.render("history");
-  });
   //get the about page
   app.get("/about", function (req, res) {
     res.render("about");
   });
   //get the sign up page
-  app.get("/signup", function (req, res) {
-    res.render("signup");
+  app.get("/projects", function (req, res) {
+    res.render("projects");
   });
-  //get the maps page
-  app.get("/members", function (req, res) {
-    // If the user already has an account send them to the members page
-    if (!req.user) {
-      res.redirect("/login");
-    }
-    // res.render("maps");
-    return res.render("maps");
+  app.get("/resume", function (req, res) {
+    res.render("resume");
   });
-
 };
