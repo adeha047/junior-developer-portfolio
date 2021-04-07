@@ -1,7 +1,8 @@
 *{
-    margin-left: 5px;
+    margin-top: 5px;
     font-family: Arial Black,Arial Bold,Gadget,sans-serif; 
-    background-color: rgb(148, 162, 175)
+    
+    
 }
 h2{
     text-align: center;
@@ -9,8 +10,8 @@ h2{
 
 /* Animation */
 .anim-typewriter{
-    position: relative;
-    top: 50%;  
+    position: sticky;
+    top: 100%;  
     width: 18em;
     margin: 0 auto;
     color: darkblue;
@@ -31,6 +32,50 @@ h2{
   from{border-right-color: rgb(148, 162, 175)}
   to{border-right-color:  rgb(148, 162, 175);}
 }
+
+.about{
+    text-align: center;
+}
+
+.resume{
+    width: 25%;  
+}
+
+.masthead-avatar {
+    width: 15rem;
+    border-radius: 150px;
+    position: absolute; 
+    left: calc(50% - 75px);
+    top: calc(50% - 75px);    
+}
+
+
+.row{
+    position: absolute;
+    top: calc(50% - 75px);    
+    
+}
+
+.card-body{
+    margin-top: 100px;
+
+}
+
+body{
+    
+        background-image:url("/assets/colors.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+
+}
+
+.index{
+    background-image:url("/assets/rio.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
 
 
 
