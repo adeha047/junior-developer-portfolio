@@ -45,14 +45,14 @@ h2{
     width: 15rem;
     border-radius: 150px;
     position: absolute; 
-    left: calc(50% - 75px);
-    top: calc(50% - 75px);    
+    left: calc(47% - 75px);
+    top: calc(30% - 75px);    
 }
 
 
 .row{
     position: absolute;
-    top: calc(50% - 75px);    
+    top: calc(40% - 75px);    
     
 }
 
@@ -68,13 +68,27 @@ body{
         background-size: cover;
 
 }
-
-.index{
-    background-image:url("/assets/rio.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+.heading{
+    position: absolute; 
+    left: calc(35% - 75px);
+    top: calc(67% - 75px);   
 
 }
+.aboutMe{
+    margin: 20px;
+    position: absolute;
+    top: calc(80% - 75px);  
+    
+}
+
+.container2{
+    padding-left: 41%;
+    position: absolute;
+    bottom: calc(15% - 75px);  
+
+}
+
+
 
 
 
