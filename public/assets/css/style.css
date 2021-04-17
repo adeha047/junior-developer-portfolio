@@ -1,9 +1,9 @@
 *{
     margin-top: 5px;
     font-family: Arial Black,Arial Bold,Gadget,sans-serif; 
-    
-    
 }
+    
+    
 h2{
     text-align: center;
 }
@@ -52,7 +52,9 @@ h2{
 
 .row{
     position: absolute;
-    top: calc(40% - 75px);    
+    top: calc(40% - 75px);
+    left: calc(10% - 75px); 
+    font-family: 'Courier New', Courier, monospace;    
     
 }
 
@@ -71,7 +73,7 @@ body{
 .heading{
     position: absolute; 
     left: calc(35% - 75px);
-    top: calc(67% - 75px);   
+    top: calc(68% - 75px);   
 
 }
 .aboutMe{
@@ -82,11 +84,24 @@ body{
 }
 
 .container2{
-    padding-left: 41%;
+    padding-left: 44%;
     position: absolute;
     bottom: calc(15% - 75px);  
 
 }
+
+.cv{
+    position: absolute;
+    left: calc(33% - 75px); 
+    bottom: calc(2% - 75px);
+    
+}
+.aboutMe{
+    text-align: center;
+    margin-left: 45px;
+}
+
+
 
 
 
